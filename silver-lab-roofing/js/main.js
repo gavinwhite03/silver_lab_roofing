@@ -27,3 +27,10 @@ const observer = new IntersectionObserver(entries => {
 });
 
 cards.forEach(card => observer.observe(card));
+
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
