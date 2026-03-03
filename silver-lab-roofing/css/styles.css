@@ -1092,6 +1092,56 @@ body {
   margin-bottom: 30px;
 }
 
+.contact-section {
+  padding: 120px 24px;
+  background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-intro {
+  margin-bottom: 60px;
+}
+
+.contact-intro h1 {
+  font-size: 46px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.contact-intro p {
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.7;
+}
+
+.contact-details p {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+/* Form Card */
+
+.contact-form-wrapper {
+  background: white;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.08);
+}
+
+#hearth-lead-capture-widget {
+  width: 100%;
+  min-height: 650px;
+  border: none;
+  border-radius: 16px;
+}
+
 
 /* MOBILE */
 @media (max-width: 900px) {
@@ -1177,6 +1227,15 @@ body {
 
   .services-intro h1 {
     font-size: 36px;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-left h1 {
+    font-size: 34px;
   }
 }
 
